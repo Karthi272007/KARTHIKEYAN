@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Block vs Inline Practice</title>
+  <style>
+    
+    .block-demo {
+      background-color: #e0f7fa;
+      border: 1px solid #00838f;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .highlight {
+      background-color: #fff59d;
+      font-weight: bold;
+      padding: 2px 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Main Page Title </h1>
+  <h2>Section Title </h2>
+
+  <div class="block-demo">
+    <h3>paragraph 3</h3>
+    
+    <p>
+      This is a paragraph , which is a block-level element. Inside this 
+      paragraph, we have an <span class="highlight">inline span tag</span> to 
+      highlight text, 
+      <a href="https://youtube.com">inline anchor link</a> 
+      that flows seamlessly within the text.
+    </p>
+
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, nihil ullam qui dolor repellendus maiores illum eligendi corrupti ad minima! Odio facilis maxime quo adipisci reiciendis vitae ad natus explicabo.
+    </p>
+  </div>
+</body>
+</html>
