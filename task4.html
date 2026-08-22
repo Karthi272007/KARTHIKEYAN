@@ -1,0 +1,67 @@
+<!doctype HTML>
+<html>
+    <head>
+        <title>tags</title>
+        <style>
+            .user
+            {
+                display: flex;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="task1.html" target="_self">internal link</a><br/>
+        <a href="https://www.youtube.com" target="_parent">youtube external link</a>
+        <br/><br/>
+
+        <fieldset>
+            <legend><h1>login page</h1></legend>
+                <div class="user">
+                    <label>Username</label>
+                        <input type="text" placeholder="Enter Username"/>
+                        <br/><br/>
+                </div>
+                <div class="user">
+                    <label>Password</label>
+                        <input type="password" placeholder="Enter Password"/>
+                        <br/><br/>
+                </div>
+                <div class="user">
+                    <label>Email</label>
+                        <input type="email" placeholder="Enter Email"/>
+                        <br/><br/>
+                </div>
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+                <input type="radio" name="Gender"/>
+                <label>Male</label>
+
+                <input type="radio" name="Gender"/>
+                <label>Female</label>
+        </fieldset>
+        <br/><br/>
+
+        <fieldset>
+            <legend >person belongs to:</legend>
+                 <div style="display: flex;">
+                    <ul style="list-style: none;">
+                   
+                        <li>
+                            <label>School</label>
+                            <input type="checkbox"/>
+                        </li>
+                        <li>
+                            <label>College</label>
+                            <input type="checkbox"/>
+                        </li>
+                        <li>
+                            <label>Office</label>
+                            <input type="checkbox"/>
+                        </li>
+                    </ul>
+                </div>
+        </fieldset>
+    </body>
+</html>
